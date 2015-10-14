@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fanatics.cloudinary.PhotoRestClientTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.521 sec - in com.fanatics.cloudinary.PhotoRestClientTest
