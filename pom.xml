@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.fanatics.cloudinary.rest</groupId>
+	<groupId>com.poc.cloudinary.rest</groupId>
 	<artifactId>cloudinaryRest</artifactId>
 	<packaging>war</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.2-SNAPSHOT</version>
 
 	<name>cloudinaryRest Maven Webapp</name>
 
@@ -33,16 +33,16 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		 <dependency>
 			<groupId>com.cloudinary</groupId>
 			<artifactId>cloudinary-taglib</artifactId>
-			<version>1.2.2-SNAPSHOT</version>
+			<version>1.2.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.cloudinary</groupId>
 			<artifactId>cloudinary-http44</artifactId>
-			<version>1.2.2-SNAPSHOT</version>
+			<version>1.2.2</version>
 		</dependency>
 
 		<dependency>
@@ -87,11 +87,11 @@
 			<version>1.1.0.Final</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator-annotation-processor</artifactId>
 			<version>4.1.0.Final</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
@@ -132,8 +132,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
